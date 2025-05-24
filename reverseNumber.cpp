@@ -5,27 +5,27 @@
 int reverseNumber(int number);
 
 int main() {
-  int number{};
+    int number{};
 
-  do {
-  std::cout << "Type any positive number that has at least 3 digits: ";
-  std::cin >> number;
-  } while (number < 100);
+    do {
+        std::cout << "Type any positive number that has at least 3 digits: ";
+        std::cin >> number;
+    } while (number < 100);
 
-  std::cout << number << " reversed is " << reverseNumber(number);
+    std::cout << number << " reversed is " << reverseNumber(number);
 
-  return 0;
+    return 0;
 }
 
 int reverseNumber(int number) {
-  int reversedValue{};
-  int currentDigit{};
+    int reversedValue{};
+    int currentDigit{};
 
-  while (number > 0) {
-    currentDigit = number % 10;
-    reversedValue = (reversedValue * 10) + currentDigit;
-    number /= 10;
-  }
+    while (number > 0) {
+        currentDigit = number % 10;
+        reversedValue = (reversedValue * 10) + currentDigit;
+        number /= 10;
+    }
 
-  return reversedValue;
+    return reversedValue;
 }

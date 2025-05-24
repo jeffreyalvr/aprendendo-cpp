@@ -6,16 +6,16 @@ std::string checkNumber(int number);
 
 int main() {
 
-  int number{};
+    int number{};
 
-  std::cout << "Type a number: ";
-  std::cin >> number;
+    std::cout << "Type a number: ";
+    std::cin >> number;
 
-  std::cout << "The number " << number << checkNumber(number) << std::endl;
+    std::cout << "The number " << number << checkNumber(number) << std::endl;
 
-  return 0;
+    return 0;
 }
 
 std::string checkNumber(int number) {
-  return number % 2 == 0 ? " is even" : " is odd";
+    return number % 2 == 0 ? " is even" : " is odd";
 }
