@@ -21,3 +21,4 @@ Conjunto de mini-projetos em linguagem C++ para aprendizado pessoal.
 7. reverseNumber.cpp
 8. guessNumber.cpp
 9. dayOfWeek.cpp
+10. sortArray.cpp
