@@ -22,3 +22,5 @@ Conjunto de mini-projetos em linguagem C++ para aprendizado pessoal.
 8. guessNumber.cpp
 9. dayOfWeek.cpp
 10. sortArray.cpp
+11. palindrome.cpp
+12. vowelAndConsonantCounter.cpp
