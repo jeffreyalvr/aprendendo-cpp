@@ -24,3 +24,4 @@ Conjunto de mini-projetos em linguagem C++ para aprendizado pessoal.
 10. sortArray.cpp
 11. palindrome.cpp
 12. vowelAndConsonantCounter.cpp
+13. rotateArray.cpp
